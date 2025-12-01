@@ -1,13 +1,7 @@
 <div class="min-h-screen">
     <!-- --- Hero Section --- -->
-    <section class="relative bg-primary text-white py-24 lg:py-32 overflow-hidden">
-        <!-- Dekorasi Latar Belakang -->
-        <div
-            class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob">
-        </div>
-        <div
-            class="absolute bottom-0 left-0 -ml-20 -mb-20 w-96 h-96 bg-secondary rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000">
-        </div>
+    <section class="relative bg-cover bg-center text-white py-24 lg:py-32 overflow-hidden" style="background-image: url('<?php echo base_url('assets/img/hero-bg.jpg'); ?>');">
+        <div class="absolute inset-0 bg-black bg-opacity-60"></div>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center max-w-3xl mx-auto">
