@@ -10,4 +10,4 @@ WORKDIR /app
 COPY . .
 
 # Hapus "bash -c" dan tanda kutip, biarkan shell bawaan yang menangani
-CMD php -S 0.0.0.0:$PORT
+CMD php -S 0.0.0.0:8080
