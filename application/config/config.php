@@ -1,6 +1,11 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
+// --- TAMBAHKAN KODE INI ---
+// Supaya CI3 tahu kalau dia jalan di HTTPS Railway
+if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https') {
+    $_SERVER['HTTPS'] = 'on';
+}
+// --------------------------
 /*
 |--------------------------------------------------------------------------
 | Base Site URL
