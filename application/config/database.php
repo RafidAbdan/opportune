@@ -75,12 +75,12 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn' => '',
-	'hostname' => getenv('DB_HOST') ,
-	'username' => getenv('DB_USER'),
-	'password' => getenv('DB_PASSWORD'),
-	'database' => getenv('DB_NAME'),
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'opportune_db',
 	'dbdriver' => 'mysqli',
-	'port' => getenv('DB_PORT'),
+	'port' => 3306,
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
