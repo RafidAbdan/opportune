@@ -31,9 +31,8 @@ if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROT
 if (isset($_SERVER['HTTP_HOST'])) {
     $config['base_url'] = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/';
 } else {
-    $config['base_url'] = 'http://localhost/opportune/';
+    $config['base_url'] = getenv('BASE_URL');
 }
-
 /*
 |--------------------------------------------------------------------------
 | Index File
