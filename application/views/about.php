@@ -103,7 +103,7 @@
                     <div class="bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition group">
                         <div class="aspect-w-3 aspect-h-3">
                             <img src="<?php echo $member['image']; ?>" alt="<?php echo $member['name']; ?>"
-                                class="w-full h-64 object-cover object-center group-hover:scale-105 transition duration-300" />
+                                class="w-full h-64 object-cover object-top group-hover:scale-105 transition duration-300" />
                         </div>
                         <div class="p-6">
                             <h3 class="text-lg font-bold text-gray-900"><?php echo $member['name']; ?></h3>
