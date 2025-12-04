@@ -78,23 +78,26 @@
                     [
                         'id' => '1',
                         'name' => 'Rafid Abdan',
-                        'role' => 'CEO',
+                        'role' => 'CTO',
                         'image' => base_url('assets/img/team/rafid.png'),
-                        'bio' => 'Pakar pendidikan dengan pengalaman 15 tahun memajukan akses pendidikan di Indonesia.'
+                        'bio' => 'Memimpin pengembangan teknis platform, memastikan stabilitas Infrastruktur Teknis (Domain, Hosting, Maintenance), dan bertanggung jawab atas optimalisasi 
+                        algoritma Sistem Personalisasi beasiswa yang menjadi fitur unggulan premium.'
                     ],
                     [
                         'id' => '2',
                         'name' => 'Faradila',
                         'role' => 'COO',
                         'image' => base_url('assets/img/team/faradila.jpg'),
-                        'bio' => 'Alumni LPDP yang berdedikasi membimbing generasi muda meraih beasiswa impian.'
+                        'bio' => 'Mengelola operasional harian, memimpin tim konten dalam validasi dan kurasi data beasiswa untuk menjamin Akses Informasi Lengkap,
+                         serta mengawasi strategi Customer Relationship Management (CRM) platform'
                     ],
                     [
                         'id' => '3',
                         'name' => 'Cardiana',
-                        'role' => 'CTO',
+                        'role' => 'CEO',
                         'image' => base_url('assets/img/team/cardiana.jpg'),
-                        'bio' => 'Tech enthusiast yang membangun sistem rekomendasi cerdas Oppurtune.'
+                        'bio' => 'Bertanggung jawab penuh atas visi strategis perusahaan, pengembangan bisnis, dan pengelolaan sumber pendapatan Kerjasama B2B/Iklan.
+                         Memimpin upaya pencapaian Titik Impas (BEP) di Kuartal 3.'
                     ]
                 ];
 
