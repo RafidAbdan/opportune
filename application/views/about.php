@@ -77,23 +77,23 @@
                 $teamMembers = [
                     [
                         'id' => '1',
-                        'name' => 'Dr. Sarah Wijaya',
-                        'role' => 'Founder & CEO',
-                        'image' => 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800',
+                        'name' => 'Rafid Abdan',
+                        'role' => 'CEO',
+                        'image' => base_url('assets/img/team/rafid.png'),
                         'bio' => 'Pakar pendidikan dengan pengalaman 15 tahun memajukan akses pendidikan di Indonesia.'
                     ],
                     [
                         'id' => '2',
-                        'name' => 'Budi Santoso, M.Ed',
-                        'role' => 'Head of Education',
-                        'image' => 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=800',
+                        'name' => 'Faradila',
+                        'role' => 'COO',
+                        'image' => base_url('assets/img/team/faradila.jpg'),
                         'bio' => 'Alumni LPDP yang berdedikasi membimbing generasi muda meraih beasiswa impian.'
                     ],
                     [
                         'id' => '3',
-                        'name' => 'Jessica Tan',
-                        'role' => 'Chief Technology Officer',
-                        'image' => 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=800',
+                        'name' => 'Cardiana',
+                        'role' => 'CTO',
+                        'image' => base_url('assets/img/team/cardiana.jpg'),
                         'bio' => 'Tech enthusiast yang membangun sistem rekomendasi cerdas Oppurtune.'
                     ]
                 ];
